@@ -48,6 +48,7 @@ body{
    background: #f4f4f4;
 }
 
+
 .delete{
     background-color: #df5b3f;
     color: #fff;
@@ -59,6 +60,22 @@ body{
 
 .delete:hover {
     background: maroon;
+}
+
+
+.edit{
+    background-color: #df5b3f; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;       
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.edit {
+    padding-left: 16px;        
+    padding-right: 10px;       
 }
 
 #add-movie{
@@ -88,3 +105,7 @@ body{
     background: darkgreen;
 }
 
+#movie-list ul li {  
+  display: flex;  
+  align-items: center;  
+}

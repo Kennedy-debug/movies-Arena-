@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Time</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Time</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./script.js"></script>
 </head>
-
 <body>
-    <main id="wrapper">
-        <header id="page-banner">
-            <h1 class="title">Movie to Watch</h1>
-        </header>
+  <main id="wrapper">
+    <header id="page-banner">
+      <h1 class="title">Movie to Watch</h1>
+    </header>
 
-        <section id="movie-list">
+    <section id="movie-list">
+      <ul>
+        <li class="movie-item">
+          <span class="name">The Intern</span>
+          <span class="actions">
+            <span class="edit">edit</span>
+            <span class="delete">Delete</span>
+          </span>
+        </li>
+        <li class="movie-item">
+          <span class="name">Code 45</span>
+          <span class="actions">
+            <span class="edit">edit</span>
+            <span class="delete">Delete</span>
+          </span>
+        </li>
+        <li class="movie-item">
+          <span class="name">Inception</span>
+          <span class="actions">
+            <span class="edit">edit</span>
+            <span class="delete">Delete</span>
+          </span>
+        </li>
+        <li class="movie-item">
+          <span class="name">Avengers</span>
+          <span class="actions">
+            <span class="edit">edit</span>
+            <span class="delete">Delete</span>
+          </span>
+        </li>
+      </ul>
+    </section>
 
-            <ul>
-                <li>
-                    <span class="name">The Intern</span>
-                    <span class="delete">Delete</span>
-                </li>
-
-                <li>
-                    <span class="name">Prey</span>
-                    <span class="delete">Delete</span>
-
-                </li>
-
-                <li>
-                    <span class="name">Code 45</span>
-                    <span class="delete">Delete</span>
-
-                </li>
-
-                <li>
-                    <span class="name">Inception</span>
-                    <span class="delete">Delete</span>
-
-                </li>
-
-                <li>
-                    <span class="name">Avengers</span>
-                    <span class="delete">Delete</span>
-
-                </li>
-
-            </ul>
-        </section>
-
-        <form id="add-movie">
-            <input type="text" placeholder="Add your Movie">
-            <button>ADD</button>
-        </form>
-    </main>
-
+    <form id="add-movie">
+      <input type="text" placeholder="Add your Movie" />
+      <button type="submit">ADD</button>
+    </form>
+  </main>
 </body>
-
 </html>
